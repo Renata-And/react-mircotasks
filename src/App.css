@@ -25,3 +25,30 @@
   border: 1px solid darkslategrey;
   text-align: center;
 }
+
+.banknoteList {
+  width: 300px;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid darkgreen;
+}
+
+.banknoteList h3 {
+  margin-left: 15px;
+  color: #155a1b;
+}
+
+.banknoteList button {
+  padding: 5px 10px;
+  margin-left: 15px;
+  border: none;
+  background-color: #155a1b;
+  color: antiquewhite;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+
+ul span + span {
+  margin-left: 10px;
+}

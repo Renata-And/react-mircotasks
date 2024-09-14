@@ -2,6 +2,7 @@ import React, { MouseEvent } from 'react';
 import './App.css';
 import { NewComponent } from './components/NewComponent';
 import { Button } from './components/Button';
+import { Filter } from './components/Filter';
 
 function App() {
   const button1Foo = (subscriber: string, age: number, address: string) => {
@@ -25,10 +26,11 @@ function App() {
   return (
     <div className='App'>
       {/* <NewComponent /> */}
-      <button onClick={onClickHandler}>Event</button>
-      <Button name={'YouTubeChannel - 1'} callBack={() => button1Foo('Renata', 33, 'Nha Trang')} />
-      <Button name={'YouTubeChannel - 2'} callBack={() => button2Foo('Stepa')} />
-      <Button name={'YouTubeChannel - 3'} callBack={button3Foo} />
+      {/* <button onClick={onClickHandler}>Event</button> */}
+      {/* <Button name={'YouTubeChannel - 1'} callBack={() => button1Foo('Renata', 33, 'Nha Trang')} /> */}
+      {/* <Button name={'YouTubeChannel - 2'} callBack={() => button2Foo('Stepa')} /> */}
+      {/* <Button name={'YouTubeChannel - 3'} callBack={button3Foo} /> */}
+      <Filter />
     </div>
   );
 }
